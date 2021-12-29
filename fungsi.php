@@ -24,9 +24,14 @@ function answer($kode){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C8'>Tidak</a>";
     }
 
+    if($kode=='C6'){
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C7'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C8'>Tidak</a>";
+    }
+
     if($kode=='C7'){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=MB1'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='Ssolusi.php?kode=S1'>Tidak</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S1'>Tidak</a>";
     }
 
 
