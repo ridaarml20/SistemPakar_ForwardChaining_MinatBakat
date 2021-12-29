@@ -79,16 +79,16 @@ function answer($kode){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C23'>Tidak</a>";
     }
     if($kode=='C19'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C20'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C23'>Tidak</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C20'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C23'>Tidak</a>";
     }    
     if($kode=='C20'){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C21'>Ya</a>";
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C23'>Tidak</a>";
     }
     if($kode=='C21'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C22'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C23'>Tidak</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C22'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C23'>Tidak</a>";
     }
     if($kode=='C22'){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=MB3>Ya</a>";
@@ -96,53 +96,50 @@ function answer($kode){
     }
 
     if($kode=='C23'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C24>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C24'>Ya</a>";
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C30'>Tidak</a>";
     }
 
     if($kode=='C24'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C25>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C25'>Ya</a>";
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C30'>Tidak</a>";
     }
 
     if($kode=='C25'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C26>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C26'>Ya</a>";
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C30'>Tidak</a>";
     }
 
     if($kode=='C26'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C27>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C27'>Ya</a>";
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C30'>Tidak</a>";
     }
 
     if($kode=='C27'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C28>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C28'>Ya</a>";
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C30'>Tidak</a>";
     }
 
     if($kode=='C28'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C29>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C29'>Ya</a>";
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C30'>Tidak</a>";
     }
 
     if($kode=='C29'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=MB4>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=S3'>Tidak</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=MB4'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S3'>Tidak</a>";
     }
 
 
 
     if($kode=='C30'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C31'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C38'>Tidak</a>";
-    }
-    if($kode=='C31'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=s21'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C31'>Ya</a>";
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C38'>Tidak</a>";
     }
+
     if($kode=='C31'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C32'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C38'>Tidak</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C32'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C38'>Tidak</a>";
     }
 
     if($kode=='C32'){
@@ -150,20 +147,20 @@ function answer($kode){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C38'>Tidak</a>";
     }
     if($kode=='C33'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C34'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C38'>Tidak</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C34'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C38'>Tidak</a>";
     }    
     if($kode=='C34'){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C35'>Ya</a>";
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C38'>Tidak</a>";
     }
     if($kode=='C35'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C36'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C38'>Tidak</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C36'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C38'>Tidak</a>";
     }
     if($kode=='C36'){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C37'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C38'>Tidak</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C38'>Tidak</a>";
     }
     if($kode=='C37'){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=MB5'>Ya</a>";
@@ -197,14 +194,14 @@ function answer($kode){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C45'>Tidak</a>";
     }
     if($kode=='C44'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=MB6'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=S4'>Tidak</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=MB6'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S4'>Tidak</a>";
     }
 
 
     if($kode=='C45'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C46'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S2'>Tidak</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C46'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C52'>Tidak</a>";
     }
 
 
@@ -217,12 +214,12 @@ function answer($kode){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C52'>Tidak</a>";
     }
     if($kode=='C48'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C49'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C52'>Tidak</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C49'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C52'>Tidak</a>";
     }
     if($kode=='C49'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C50'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C52'>Tidak</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='questioni.php?kode=C50'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C52'>Tidak</a>";
     }    
     if($kode=='C50'){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C51'>Ya</a>";
@@ -265,31 +262,31 @@ function answer($kode){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C16'>Tidak</a>";
     }
     if($kode=='C59'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=MB8'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=S2'>Tidak</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=MB8'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S2'>Tidak</a>";
     }
 
 
     if($kode=='C60'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C61'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C61'>Ya</a>";
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S5'>Tidak</a>";
     }
 
 
     if($kode=='C61'){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C62'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=S2'>Tidak</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S2'>Tidak</a>";
     }
     if($kode=='C62'){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C63'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=S5'>Tidak</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S5'>Tidak</a>";
     }
     if($kode=='C63'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C64'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C64'>Ya</a>";
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S5'>Tidak</a>";
     }
     if($kode=='C64'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=C65'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=C65'>Ya</a>";
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S5'>Tidak</a>";
     }    
     if($kode=='C65'){
@@ -301,10 +298,6 @@ function answer($kode){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S5'>Tidak</a>";
     }
    
- }
-
-
-
 }
 
 function kesimpulan($jurusan){
@@ -353,94 +346,27 @@ function solusi($kode){
         $jurusan = "Eksistensial";
         kesimpulan($jurusan);
     }
-    if ($kode=='s10') {
-        $jurusan = "Pendidikan Bahasa Inggris";
-        kesimpulan($jurusan);
-    }
-    if ($kode=='s11') {
+    if ($kode=='S1') {
         $jurusan = "x-1";
         kesimpulan($jurusan);
     }
-     if ($kode=='s12') {
+    if ($kode=='S2') {
         $jurusan = "x-2";
         kesimpulan($jurusan);
     }
-    if ($kode=='s13') {
-        $jurusan = "Informatika (non IPA)";
-        kesimpulan($jurusan);
-    }
-    if ($kode=='s14') {
-        $jurusan = "Sistem Informasi (non IPA)";
-        kesimpulan($jurusan);
-    }
-    if ($kode=='s15') {
-        $jurusan = "Arsitektur (non IPA)";
-        kesimpulan($jurusan);
-    }
-    if ($kode=='s16') {
-        $jurusan = "Desain Produk (non IPA)";
-        kesimpulan($jurusan);        
-    }
-    if ($kode=='s17') {
-        $jurusan = "Akuntansi (non IPA)";
-        kesimpulan($jurusan);
-    } 
-    if ($kode=='s18') {
-        $jurusan = "Manajemen (non IPA)";
-        kesimpulan($jurusan);
-    }
-    if ($kode=='s19') {
-        $jurusan = "Kedokteran (non IPA)";
-        kesimpulan($jurusan);
-    }
-    if ($kode=='s20') {
-        $jurusan = "Bioteknologi (non IPA)";
-        kesimpulan($jurusan);
-    }
-     if ($kode=='s21') {
-        $jurusan = "Teologi (non IPA)";
-        kesimpulan($jurusan);
-    }
-     if ($kode=='s22') {
-        $jurusan = "Pendidikan Bahasa Inggris (non IPA)";
-        kesimpulan($jurusan);
-    }
-     if ($kode=='s23') {
+     if ($kode=='S3') {
         $jurusan = "x-3";
         kesimpulan($jurusan);
     }
-     if ($kode=='s24') {
+    if ($kode=='S4') {
         $jurusan = "x-4";
-        kesimpulan($jurusan);   
-    }
-     if ($kode=='s25') {
-        $jurusan = "Arsitek (non SMA)";
         kesimpulan($jurusan);
     }
-     if ($kode=='s26') {
-        $jurusan = "Desain Produk (non SMA)";
-        kesimpulan($jurusan);
-    }
-     if ($kode=='s27') {
-        $jurusan = "Informatika (non SMA)";
-        kesimpulan($jurusan);
-    }
-     if ($kode=='s28') {
-        $jurusan = "Sistem Informasi (non SMA)";
-        kesimpulan($jurusan);
-    }
-     if ($kode=='s29') {
-        $jurusan = "Akutansi (non SMA)";
-        kesimpulan($jurusan);
-    }
-     if ($kode=='s30') {
-        $jurusan = "Manajemen (non SMA)";
-        kesimpulan($jurusan);
-    }
-     if ($kode=='s31') {
+    if ($kode=='S5') {
         $jurusan = "x-5";
         kesimpulan($jurusan);
     }
+    
 }
 
 
