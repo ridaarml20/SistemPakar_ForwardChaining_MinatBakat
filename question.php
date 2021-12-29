@@ -20,7 +20,7 @@
     
     <main class="batas-atas">
         <div class="card text-white bg-info mb-3">
-          <h5 class="card-header">Jawab Pertanyaan Seusuai dengan Ciri-Ciri Yang Dialami</h5>
+          <h5 class="card-header">Jawab Pertanyaan Sesuai dengan Ciri-Ciri Yang Dialami</h5>
           <div class="card-body text-center ukuran-30">
 
             <form method="post" action="input-ketampung.php" enctype="multipart/form-data" role="form">
